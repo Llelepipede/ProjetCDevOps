@@ -1,6 +1,4 @@
-FROM golang:alpine
-
-WORKDIR /
+FROM golang:latest
 
 COPY . .
 
