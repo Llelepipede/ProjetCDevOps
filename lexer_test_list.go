@@ -301,7 +301,7 @@ var (
 			{
 				TokenType: TEXT,
 				Value:     `_aa_`,
-				Position:  2,
+				Position:  1,
 				Line:      3,
 			},
 			{
