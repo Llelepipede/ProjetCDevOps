@@ -6,6 +6,7 @@ import (
 )
 
 func tLexer(t *testing.T, tested testList, name string) {
+
 	result := ""
 	code := tested.input
 	expected := tested.output
