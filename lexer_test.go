@@ -36,6 +36,7 @@ func tLexer(t *testing.T, tested testList, name string) {
 		result += "\n--------------------------------------------------\n"
 		t.Error(result, "\ngot :\n", l)
 	}
+
 }
 
 //func TestHashtag5(t *testing.T) {
