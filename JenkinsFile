@@ -38,6 +38,9 @@ pipeline {
         }
         stage('Test') {
             steps {
+                bat "go mod init"
+            }
+            steps {
                 bat "go test ."
             }
         }
